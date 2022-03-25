@@ -5,7 +5,6 @@
  * For more details take a look at the Writing Custom Plugins chapter in the Gradle
  * User Manual available at https://docs.gradle.org/7.3.3/userguide/custom_plugins.html
  */
-
 plugins {
     // Apply the Java Gradle plugin development plugin to add support for developing Gradle plugins
     id 'java-gradle-plugin'
@@ -32,7 +31,7 @@ gradlePlugin {
     plugins {
         greeting {
             id = 'gitrelease.greeting'
-            implementationClass = 'gitrelease.GitreleasePlugin'
+            implementationClass = 'gitrelease.GitReleasePlugin'
         }
     }
 }
